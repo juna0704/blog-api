@@ -1,0 +1,69 @@
+# -------------------------
+# Node / TypeScript Project
+# -------------------------
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Env files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# PM2 logs
+.pids
+*.pid
+*.seed
+*.pid.lock
+pm2.log
+pm2.error.log
+
+# Debugging files
+*.tsbuildinfo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Uploads 
+uploads/
+public/uploads/
+static/uploads/
+
+# Cloudinary temp cache (if any)
+cloudinary/
+
+# Local database dumps
+*.sql
+*.sqlite
+*.db
+
+# Misc
+*.orig

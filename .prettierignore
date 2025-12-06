@@ -1,0 +1,53 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Dependency lock files (optional)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Ignore compiled TypeScript declaration files
+*.d.ts
+
+# Ignore coverage and test output
+coverage/
+.tmp/
+.temp/
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore uploaded files (if any)
+uploads/
+public/uploads/
+
+# Ignore custom scripts
+scripts/
+
+# Ignore front-end folder (if full-stack monorepo)
+frontend/
