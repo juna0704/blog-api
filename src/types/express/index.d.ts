@@ -1,8 +1,5 @@
-// src/@types/express/index.ts
-/**
- * Node modules
- */
-import * as express from 'express';
+// src/@types/express/index.d.ts
+
 
 /**
  * Types
@@ -13,6 +10,11 @@ declare global {
   namespace Express {
     interface Request {
       userId?: Types.ObjectId;
+      user?: {
+        _id: Types.ObjectId;
+        role?: string;
+        email?: string;
+      };
     }
   }
 }
