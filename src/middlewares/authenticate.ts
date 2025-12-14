@@ -1,3 +1,4 @@
+/// <reference path="../types/express/index.d.ts" />
 /**
  * Node modules
  */

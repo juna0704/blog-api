@@ -21,7 +21,7 @@ export const genSlug = (title: string): string => {
     .replace(/-+/g, '-');
 
   const randomChars = Math.random().toString(36).slice(2);
-  const uniqueSlug = `${slug} - ${randomChars}`;
+  const uniqueSlug = `${slug}-${randomChars}`;
 
   return uniqueSlug;
 };
